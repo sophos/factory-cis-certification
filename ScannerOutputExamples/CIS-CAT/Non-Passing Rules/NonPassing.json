@@ -1,0 +1,53 @@
+{
+    "benchmark-id": "xccdf_org.cisecurity.benchmarks_benchmark_2.2.0.1_CIS_Red_Hat_Enterprise_Linux_7_Benchmark",
+    "rules": [
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.3.2_Ensure_filesystem_integrity_is_regularly_checked",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.4.1_Ensure_permissions_on_bootloader_config_are_configured",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.4.2_Ensure_bootloader_password_is_set",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.8_Ensure_updates_patches_and_additional_security_software_are_installed",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_3.4.1_Ensure_TCP_Wrappers_is_installed",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_3.4.3_Ensure_etchosts.deny_is_configured",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_3.6.2_Ensure_default_deny_firewall_policy",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_3.6.3_Ensure_loopback_traffic_is_configured",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_3.6.5_Ensure_firewall_rules_exist_for_all_open_ports",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_4.2.4_Ensure_permissions_on_all_logfiles_are_configured",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_5.2.14_Ensure_SSH_access_is_limited",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_5.4.4_Ensure_default_user_umask_is_027_or_more_restrictive",
+            "result": "fail"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+Windows:
+	us-west-1
+	t2.medium
+	ami-0f98ff6e3a7e950b8
+	50.18.19.22
+	5986
+	Administrator
+	TYkAnslcSgH4
+	CIS_Microsoft_Windows_Server_2019_Benchmark_v1.1.0-xccdf.xml
+	Level 1 - Member Server
+
+Linux:
+	us-west-1
+	t2.medium
+	ami-33cdd876
+	RefactrAwsDemoKeyPair
+	52.52.196.54
+	22
+	ec2-user
+	CIS_Red_Hat_Enterprise_Linux_7_Benchmark_v2.2.0-xccdf.xml
+	Level 1 - Server
+
+
+Other parameter values:
+	bucketName		refactr-sales-demos
+	AWS Region		us-west-1
+	AssessorUrl		https://refactr001.blob.core.windows.net/public/Assessor-CLI-v4.0.20_reduced.zip
+
+
+
+ip-172-16-212-56.us-west-1.compute.internal-CIS_Red_Hat_Enterprise_Linux_7_Benchmark-20201209T190834Z-NonPassing.json
+
+
+
+Clean up Vendor prefixed variables
+	Where is Vendor name used?	
+		Used in the name prefix
+	Remove "password" variable
+	Change name to match this format:
+		ACME-Cert-Rhel7-Run1-stack
+	Change name prefix on the clean-up
+
+Follow-up things to do:
+	More descriptive IDs
+
+Talk with Mark Beblow
+	I just want to pass the results
+	Need to know what the pre-scan and post scan will be
+	
+	Joe reach out to Justin
+	Mark said we're pretty much sold on this
+	
+
+
+Pipeline Inputs:
+	Session File
+		WMI for windows
+		1909 (Windows 10) - UAC disabled
+		Known acceptions
+		Does 
+	Benchmark
+	Profile
+Output
+	submissionResult

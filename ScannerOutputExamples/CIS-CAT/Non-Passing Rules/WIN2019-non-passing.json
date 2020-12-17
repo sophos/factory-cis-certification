@@ -1,0 +1,861 @@
+{
+    "benchmark-id": "xccdf_org.cisecurity.benchmarks_benchmark_1.1.0_CIS_Microsoft_Windows_Server_2019_Benchmark",
+    "rules": [
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.1.1_L1_Ensure_Enforce_password_history_is_set_to_24_or_more_passwords",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.1.3_L1_Ensure_Minimum_password_age_is_set_to_1_or_more_days",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.1.4_L1_Ensure_Minimum_password_length_is_set_to_14_or_more_characters",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.1.5_L1_Ensure_Password_must_meet_complexity_requirements_is_set_to_Enabled",
+            "result": "unknown"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.1.6_L1_Ensure_Store_passwords_using_reversible_encryption_is_set_to_Disabled",
+            "result": "unknown"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_1.2.2_L1_Ensure_Account_lockout_threshold_is_set_to_10_or_fewer_invalid_logon_attempts_but_not_0",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.3_L1_Ensure_Access_this_computer_from_the_network__is_set_to_Administrators_Authenticated_Users_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.7_L1_Ensure_Allow_log_on_locally_is_set_to_Administrators",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.10_L1_Ensure_Back_up_files_and_directories_is_set_to_Administrators",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.21_L1_Ensure_Deny_access_to_this_computer_from_the_network_to_include_Guests_Local_account_and_member_of_Administrators_group_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.22_L1_Ensure_Deny_log_on_as_a_batch_job_to_include_Guests",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.23_L1_Ensure_Deny_log_on_as_a_service_to_include_Guests",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.24_L1_Ensure_Deny_log_on_locally_to_include_Guests",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.26_L1_Ensure_Deny_log_on_through_Remote_Desktop_Services_is_set_to_Guests_Local_account_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.45_L1_Ensure_Restore_files_and_directories_is_set_to_Administrators",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.2.46_L1_Ensure_Shut_down_the_system_is_set_to_Administrators",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.1.1_L1_Ensure_Accounts_Administrator_account_status_is_set_to_Disabled_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.1.2_L1_Ensure_Accounts_Block_Microsoft_accounts_is_set_to_Users_cant_add_or_log_on_with_Microsoft_accounts",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.1.5_L1_Configure_Accounts_Rename_administrator_account",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.1.6_L1_Configure_Accounts_Rename_guest_account",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.2.1_L1_Ensure_Audit_Force_audit_policy_subcategory_settings_Windows_Vista_or_later_to_override_audit_policy_category_settings_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.4.1_L1_Ensure_Devices_Allowed_to_format_and_eject_removable_media_is_set_to_Administrators",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.7.2_L1_Ensure_Interactive_logon_Dont_display_last_signed-in_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.7.3_L1_Ensure_Interactive_logon_Machine_inactivity_limit_is_set_to_900_or_fewer_seconds_but_not_0",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.7.4_L1_Configure_Interactive_logon_Message_text_for_users_attempting_to_log_on",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.7.5_L1_Configure_Interactive_logon_Message_title_for_users_attempting_to_log_on",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.7.8_L1_Ensure_Interactive_logon_Require_Domain_Controller_Authentication_to_unlock_workstation_is_set_to_Enabled_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.7.9_L1_Ensure_Interactive_logon_Smart_card_removal_behavior_is_set_to_Lock_Workstation_or_higher",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.8.1_L1_Ensure_Microsoft_network_client_Digitally_sign_communications_always_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.9.2_L1_Ensure_Microsoft_network_server_Digitally_sign_communications_always_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.9.3_L1_Ensure_Microsoft_network_server_Digitally_sign_communications_if_client_agrees_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.9.5_L1_Ensure_Microsoft_network_server_Server_SPN_target_name_validation_level_is_set_to_Accept_if_provided_by_client_or_higher_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.10.1_L1_Ensure_Network_access_Allow_anonymous_SIDName_translation_is_set_to_Disabled",
+            "result": "unknown"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.10.3_L1_Ensure_Network_access_Do_not_allow_anonymous_enumeration_of_SAM_accounts_and_shares_is_set_to_Enabled_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.10.11_L1_Ensure_Network_access_Restrict_clients_allowed_to_make_remote_calls_to_SAM_is_set_to_Administrators_Remote_Access_Allow_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.11.1_L1_Ensure_Network_security_Allow_Local_System_to_use_computer_identity_for_NTLM_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.11.2_L1_Ensure_Network_security_Allow_LocalSystem_NULL_session_fallback_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.11.3_L1_Ensure_Network_Security_Allow_PKU2U_authentication_requests_to_this_computer_to_use_online_identities_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.11.4_L1_Ensure_Network_security_Configure_encryption_types_allowed_for_Kerberos_is_set_to_AES128_HMAC_SHA1_AES256_HMAC_SHA1_Future_encryption_types",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.11.7_L1_Ensure_Network_security_LAN_Manager_authentication_level_is_set_to_Send_NTLMv2_response_only._Refuse_LM__NTLM",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.11.9_L1_Ensure_Network_security_Minimum_session_security_for_NTLM_SSP_based_including_secure_RPC_clients_is_set_to_Require_NTLMv2_session_security_Require_128-bit_encryption",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.11.10_L1_Ensure_Network_security_Minimum_session_security_for_NTLM_SSP_based_including_secure_RPC_servers_is_set_to_Require_NTLMv2_session_security_Require_128-bit_encryption",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.13.1_L1_Ensure_Shutdown_Allow_system_to_be_shut_down_without_having_to_log_on_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.17.1_L1_Ensure_User_Account_Control_Admin_Approval_Mode_for_the_Built-in_Administrator_account_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.17.2_L1_Ensure_User_Account_Control_Behavior_of_the_elevation_prompt_for_administrators_in_Admin_Approval_Mode_is_set_to_Prompt_for_consent_on_the_secure_desktop",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_2.3.17.3_L1_Ensure_User_Account_Control_Behavior_of_the_elevation_prompt_for_standard_users_is_set_to_Automatically_deny_elevation_requests",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.1.1_L1_Ensure_Windows_Firewall_Domain_Firewall_state_is_set_to_On_recommended",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.1.2_L1_Ensure_Windows_Firewall_Domain_Inbound_connections_is_set_to_Block_default",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.1.3_L1_Ensure_Windows_Firewall_Domain_Outbound_connections_is_set_to_Allow_default",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.1.4_L1_Ensure_Windows_Firewall_Domain_Settings_Display_a_notification_is_set_to_No",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.1.5_L1_Ensure_Windows_Firewall_Domain_Logging_Name_is_set_to_SystemRootSystem32logfilesfirewalldomainfw.log",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.1.6_L1_Ensure_Windows_Firewall_Domain_Logging_Size_limit_KB_is_set_to_16384_KB_or_greater",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.1.7_L1_Ensure_Windows_Firewall_Domain_Logging_Log_dropped_packets_is_set_to_Yes",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.1.8_L1_Ensure_Windows_Firewall_Domain_Logging_Log_successful_connections_is_set_to_Yes",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.2.1_L1_Ensure_Windows_Firewall_Private_Firewall_state_is_set_to_On_recommended",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.2.2_L1_Ensure_Windows_Firewall_Private_Inbound_connections_is_set_to_Block_default",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.2.3_L1_Ensure_Windows_Firewall_Private_Outbound_connections_is_set_to_Allow_default",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.2.4_L1_Ensure_Windows_Firewall_Private_Settings_Display_a_notification_is_set_to_No",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.2.5_L1_Ensure_Windows_Firewall_Private_Logging_Name_is_set_to_SystemRootSystem32logfilesfirewallprivatefw.log",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.2.6_L1_Ensure_Windows_Firewall_Private_Logging_Size_limit_KB_is_set_to_16384_KB_or_greater",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.2.7_L1_Ensure_Windows_Firewall_Private_Logging_Log_dropped_packets_is_set_to_Yes",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.2.8_L1_Ensure_Windows_Firewall_Private_Logging_Log_successful_connections_is_set_to_Yes",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.1_L1_Ensure_Windows_Firewall_Public_Firewall_state_is_set_to_On_recommended",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.2_L1_Ensure_Windows_Firewall_Public_Inbound_connections_is_set_to_Block_default",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.3_L1_Ensure_Windows_Firewall_Public_Outbound_connections_is_set_to_Allow_default",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.4_L1_Ensure_Windows_Firewall_Public_Settings_Display_a_notification_is_set_to_No",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.5_L1_Ensure_Windows_Firewall_Public_Settings_Apply_local_firewall_rules_is_set_to_No",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.6_L1_Ensure_Windows_Firewall_Public_Settings_Apply_local_connection_security_rules_is_set_to_No",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.7_L1_Ensure_Windows_Firewall_Public_Logging_Name_is_set_to_SystemRootSystem32logfilesfirewallpublicfw.log",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.8_L1_Ensure_Windows_Firewall_Public_Logging_Size_limit_KB_is_set_to_16384_KB_or_greater",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.9_L1_Ensure_Windows_Firewall_Public_Logging_Log_dropped_packets_is_set_to_Yes",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_9.3.10_L1_Ensure_Windows_Firewall_Public_Logging_Log_successful_connections_is_set_to_Yes",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.1.1_L1_Ensure_Audit_Credential_Validation_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.2.1_L1_Ensure_Audit_Application_Group_Management_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.2.6_L1_Ensure_Audit_User_Account_Management_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.3.1_L1_Ensure_Audit_PNP_Activity_is_set_to_include_Success",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.3.2_L1_Ensure_Audit_Process_Creation_is_set_to_include_Success",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.5.1_L1_Ensure_Audit_Account_Lockout_is_set_to_include_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.5.2_L1_Ensure_Audit_Group_Membership_is_set_to_include_Success",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.5.5_L1_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.6.1_L1_Ensure_Audit_Detailed_File_Share_is_set_to_include_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.6.2_L1_Ensure_Audit_File_Share_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.6.3_L1_Ensure_Audit_Other_Object_Access_Events_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.6.4_L1_Ensure_Audit_Removable_Storage_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.7.3_L1_Ensure_Audit_Authorization_Policy_Change_is_set_to_include_Success",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.7.4_L1_Ensure_Audit_MPSSVC_Rule-Level_Policy_Change_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.7.5_L1_Ensure_Audit_Other_Policy_Change_Events_is_set_to_include_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.8.1_L1_Ensure_Audit_Sensitive_Privilege_Use_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.9.1_L1_Ensure_Audit_IPsec_Driver_is_set_to_Success_and_Failure",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_17.9.4_L1_Ensure_Audit_Security_System_Extension_is_set_to_include_Success",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.1.1.1_L1_Ensure_Prevent_enabling_lock_screen_camera_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.1.1.2_L1_Ensure_Prevent_enabling_lock_screen_slide_show_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.1.2.2_L1_Ensure_Allow_users_to_enable_online_speech_recognition_services_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.2.1_L1_Ensure_LAPS_AdmPwd_GPO_Extension__CSE_is_installed_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.2.2_L1_Ensure_Do_not_allow_password_expiration_time_longer_than_required_by_policy_is_set_to_Enabled_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.2.3_L1_Ensure_Enable_Local_Admin_Password_Management_is_set_to_Enabled_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.2.4_L1_Ensure_Password_Settings_Password_Complexity_is_set_to_Enabled_Large_letters__small_letters__numbers__special_characters_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.2.5_L1_Ensure_Password_Settings_Password_Length_is_set_to_Enabled_15_or_more_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.2.6_L1_Ensure_Password_Settings_Password_Age_Days_is_set_to_Enabled_30_or_fewer_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.3.1_L1_Ensure_Apply_UAC_restrictions_to_local_accounts_on_network_logons_is_set_to_Enabled_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.3.2_L1_Ensure_Configure_SMB_v1_client_driver_is_set_to_Enabled_Disable_driver_recommended",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.3.3_L1_Ensure_Configure_SMB_v1_server_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.3.6_L1_Ensure_NetBT_NodeType_configuration_is_set_to_Enabled_P-node_recommended",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.3.7_L1_Ensure_WDigest_Authentication_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.4.1_L1_Ensure_MSS_AutoAdminLogon_Enable_Automatic_Logon_not_recommended_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.4.2_L1_Ensure_MSS_DisableIPSourceRouting_IPv6_IP_source_routing_protection_level_protects_against_packet_spoofing_is_set_to_Enabled_Highest_protection_source_routing_is_completely_disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.4.3_L1_Ensure_MSS_DisableIPSourceRouting_IP_source_routing_protection_level_protects_against_packet_spoofing_is_set_to_Enabled_Highest_protection_source_routing_is_completely_disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.4.4_L1_Ensure_MSS_EnableICMPRedirect_Allow_ICMP_redirects_to_override_OSPF_generated_routes_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.4.6_L1_Ensure_MSS_NoNameReleaseOnDemand_Allow_the_computer_to_ignore_NetBIOS_name_release_requests_except_from_WINS_servers_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.4.8_L1_Ensure_MSS_SafeDllSearchMode_Enable_Safe_DLL_search_mode_recommended_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.4.9_L1_Ensure_MSS_ScreenSaverGracePeriod_The_time_in_seconds_before_the_screen_saver_grace_period_expires_0_recommended_is_set_to_Enabled_5_or_fewer_seconds",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.4.12_L1_Ensure_MSS_WarningLevel_Percentage_threshold_for_the_security_event_log_at_which_the_system_will_generate_a_warning_is_set_to_Enabled_90_or_less",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.5.8.1_L1_Ensure_Enable_insecure_guest_logons_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.5.11.2_L1_Ensure_Prohibit_installation_and_configuration_of_Network_Bridge_on_your_DNS_domain_network_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.5.11.3_L1_Ensure_Prohibit_use_of_Internet_Connection_Sharing_on_your_DNS_domain_network_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.5.11.4_L1_Ensure_Require_domain_users_to_elevate_when_setting_a_networks_location_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.5.14.1_L1_Ensure_Hardened_UNC_Paths_is_set_to_Enabled_with_Require_Mutual_Authentication_and_Require_Integrity_set_for_all_NETLOGON_and_SYSVOL_shares",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.5.21.1_L1_Ensure_Minimize_the_number_of_simultaneous_connections_to_the_Internet_or_a_Windows_Domain_is_set_to_Enabled_3__Prevent_Wi-Fi_when_on_Ethernet",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.3.1_L1_Ensure_Include_command_line_in_process_creation_events_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.4.1_L1_Ensure_Encryption_Oracle_Remediation_is_set_to_Enabled_Force_Updated_Clients",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.4.2_L1_Ensure_Remote_host_allows_delegation_of_non-exportable_credentials_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.14.1_L1_Ensure_Boot-Start_Driver_Initialization_Policy_is_set_to_Enabled_Good_unknown_and_bad_but_critical",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.21.2_L1_Ensure_Configure_registry_policy_processing_Do_not_apply_during_periodic_background_processing_is_set_to_Enabled_FALSE",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.21.3_L1_Ensure_Configure_registry_policy_processing_Process_even_if_the_Group_Policy_objects_have_not_changed_is_set_to_Enabled_TRUE",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.21.4_L1_Ensure_Continue_experiences_on_this_device_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.22.1.1_L1_Ensure_Turn_off_downloading_of_print_drivers_over_HTTP_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.22.1.5_L1_Ensure_Turn_off_Internet_download_for_Web_publishing_and_online_ordering_wizards_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.26.1_L1_Ensure_Enumeration_policy_for_external_devices_incompatible_with_Kernel_DMA_Protection_is_set_to_Enabled_Block_All",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.28.1_L1_Ensure_Block_user_from_showing_account_details_on_sign-in_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.28.2_L1_Ensure_Do_not_display_network_selection_UI_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.28.3_L1_Ensure_Do_not_enumerate_connected_users_on_domain-joined_computers_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.28.4_L1_Ensure_Enumerate_local_users_on_domain-joined_computers_is_set_to_Disabled_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.28.5_L1_Ensure_Turn_off_app_notifications_on_the_lock_screen_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.28.6_L1_Ensure_Turn_off_picture_password_sign-in_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.28.7_L1_Ensure_Turn_on_convenience_PIN_sign-in_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.34.6.3_L1_Ensure_Require_a_password_when_a_computer_wakes_on_battery_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.34.6.4_L1_Ensure_Require_a_password_when_a_computer_wakes_plugged_in_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.36.1_L1_Ensure_Configure_Offer_Remote_Assistance_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.36.2_L1_Ensure_Configure_Solicited_Remote_Assistance_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.8.37.1_L1_Ensure_Enable_RPC_Endpoint_Mapper_Client_Authentication_is_set_to_Enabled_MS_only",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.6.1_L1_Ensure_Allow_Microsoft_accounts_to_be_optional_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.8.1_L1_Ensure_Disallow_Autoplay_for_non-volume_devices_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.8.2_L1_Ensure_Set_the_default_behavior_for_AutoRun_is_set_to_Enabled_Do_not_execute_any_autorun_commands",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.8.3_L1_Ensure_Turn_off_Autoplay_is_set_to_Enabled_All_drives",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.10.1.1_L1_Ensure_Configure_enhanced_anti-spoofing_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.13.1_L1_Ensure_Turn_off_Microsoft_consumer_experiences_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.14.1_L1_Ensure_Require_pin_for_pairing_is_set_to_Enabled_First_Time_OR_Enabled_Always",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.15.1_L1_Ensure_Do_not_display_the_password_reveal_button_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.15.2_L1_Ensure_Enumerate_administrator_accounts_on_elevation_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.16.3_L1_Ensure_Do_not_show_feedback_notifications_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.16.4_L1_Ensure_Toggle_user_control_over_Insider_builds_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.26.1.1_L1_Ensure_Application_Control_Event_Log_behavior_when_the_log_file_reaches_its_maximum_size_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.26.1.2_L1_Ensure_Application_Specify_the_maximum_log_file_size_KB_is_set_to_Enabled_32768_or_greater",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.26.2.1_L1_Ensure_Security_Control_Event_Log_behavior_when_the_log_file_reaches_its_maximum_size_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.26.2.2_L1_Ensure_Security_Specify_the_maximum_log_file_size_KB_is_set_to_Enabled_196608_or_greater",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.26.3.1_L1_Ensure_Setup_Control_Event_Log_behavior_when_the_log_file_reaches_its_maximum_size_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.26.3.2_L1_Ensure_Setup_Specify_the_maximum_log_file_size_KB_is_set_to_Enabled_32768_or_greater",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.26.4.1_L1_Ensure_System_Control_Event_Log_behavior_when_the_log_file_reaches_its_maximum_size_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.26.4.2_L1_Ensure_System_Specify_the_maximum_log_file_size_KB_is_set_to_Enabled_32768_or_greater",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.30.2_L1_Ensure_Turn_off_Data_Execution_Prevention_for_Explorer_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.30.3_L1_Ensure_Turn_off_heap_termination_on_corruption_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.30.4_L1_Ensure_Turn_off_shell_protocol_protected_mode_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.44.1_L1_Ensure_Block_all_consumer_Microsoft_account_user_authentication_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.52.1_L1_Ensure_Prevent_the_usage_of_OneDrive_for_file_storage_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.2.2_L1_Ensure_Do_not_allow_passwords_to_be_saved_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.3.3.2_L1_Ensure_Do_not_allow_drive_redirection_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.3.9.1_L1_Ensure_Always_prompt_for_password_upon_connection_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.3.9.2_L1_Ensure_Require_secure_RPC_communication_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.3.9.3_L1_Ensure_Require_use_of_specific_security_layer_for_remote_RDP_connections_is_set_to_Enabled_SSL",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.3.9.4_L1_Ensure_Require_user_authentication_for_remote_connections_by_using_Network_Level_Authentication_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.3.9.5_L1_Ensure_Set_client_connection_encryption_level_is_set_to_Enabled_High_Level",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.3.11.1_L1_Ensure_Do_not_delete_temp_folders_upon_exit_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.59.3.11.2_L1_Ensure_Do_not_use_temporary_folders_per_session_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.60.1_L1_Ensure_Prevent_downloading_of_enclosures_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.61.3_L1_Ensure_Allow_indexing_of_encrypted_files_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.3.1_L1_Ensure_Configure_local_setting_override_for_reporting_to_Microsoft_MAPS_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.7.1_L1_Ensure_Turn_on_behavior_monitoring_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.10.1_L1_Ensure_Scan_removable_drives_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.10.2_L1_Ensure_Turn_on_e-mail_scanning_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.13.1.1_L1_Ensure_Configure_Attack_Surface_Reduction_rules_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.13.1.2_L1_Ensure_Configure_Attack_Surface_Reduction_rules_Set_the_state_for_each_ASR_rule_is_configured",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.13.3.1_L1_Ensure_Prevent_users_and_apps_from_accessing_dangerous_websites_is_set_to_Enabled_Block",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.14_L1_Ensure_Configure_detection_for_potentially_unwanted_applications_is_set_to_Enabled_Block",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.77.15_L1_Ensure_Turn_off_Windows_Defender_AntiVirus_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.80.1.1_L1_Ensure_Configure_Windows_Defender_SmartScreen_is_set_to_Enabled_Warn_and_prevent_bypass",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.84.2_L1_Ensure_Allow_Windows_Ink_Workspace_is_set_to_Enabled_On_but_disallow_access_above_lock_OR_Disabled_but_not_Enabled_On",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.85.1_L1_Ensure_Allow_user_control_over_installs_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.85.2_L1_Ensure_Always_install_with_elevated_privileges_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.95.1_L1_Ensure_Turn_on_PowerShell_Script_Block_Logging_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.95.2_L1_Ensure_Turn_on_PowerShell_Transcription_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.97.1.1_L1_Ensure_Allow_Basic_authentication_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.97.1.2_L1_Ensure_Allow_unencrypted_traffic_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.97.1.3_L1_Ensure_Disallow_Digest_authentication_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.97.2.1_L1_Ensure_Allow_Basic_authentication_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.97.2.3_L1_Ensure_Allow_unencrypted_traffic_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.97.2.4_L1_Ensure_Disallow_WinRM_from_storing_RunAs_credentials_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.99.2.1_L1_Ensure_Prevent_users_from_modifying_settings_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.102.1.1_L1_Ensure_Manage_preview_builds_is_set_to_Enabled_Disable_preview_builds",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.102.1.2_L1_Ensure_Select_when_Preview_Builds_and_Feature_Updates_are_received_is_set_to_Enabled_Semi-Annual_Channel_180_or_more_days",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.102.1.3_L1_Ensure_Select_when_Quality_Updates_are_received_is_set_to_Enabled_0_days",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.102.2_L1_Ensure_Configure_Automatic_Updates_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.102.3_L1_Ensure_Configure_Automatic_Updates_Scheduled_install_day_is_set_to_0_-_Every_day",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_18.9.102.4_L1_Ensure_No_auto-restart_with_logged_on_users_for_scheduled_automatic_updates_installations_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.1.3.1_L1_Ensure_Enable_screen_saver_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.1.3.2_L1_Ensure_Force_specific_screen_saver_Screen_saver_executable_name_is_set_to_Enabled_scrnsave.scr",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.1.3.3_L1_Ensure_Password_protect_the_screen_saver_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.1.3.4_L1_Ensure_Screen_saver_timeout_is_set_to_Enabled_900_seconds_or_fewer_but_not_0",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.5.1.1_L1_Ensure_Turn_off_toast_notifications_on_the_lock_screen_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.7.4.1_L1_Ensure_Do_not_preserve_zone_information_in_file_attachments_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.7.4.2_L1_Ensure_Notify_antivirus_programs_when_opening_attachments_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.7.7.1_L1_Ensure_Configure_Windows_spotlight_on_lock_screen_is_set_to_Disabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.7.7.2_L1_Ensure_Do_not_suggest_third-party_content_in_Windows_spotlight_is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.7.26.1_L1_Ensure_Prevent_users_from_sharing_files_within_their_profile._is_set_to_Enabled",
+            "result": "fail"
+        },
+        {
+            "rule-id": "xccdf_org.cisecurity.benchmarks_rule_19.7.41.1_L1_Ensure_Always_install_with_elevated_privileges_is_set_to_Disabled",
+            "result": "fail"
+        }
+    ]
+}
