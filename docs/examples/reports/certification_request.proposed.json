@@ -1,0 +1,49 @@
+{
+	"certification-request": {
+		"vendor-name": "Acme Security",
+		"product-name": "Lightning Rod",
+		"product-version": "8.21.65",
+		"contact-name": "Rudy Larriva",
+		"contact-phone": "(505) 555-2929",
+		"contact-email": "rudyl@acmesecurity.com",
+		"benchmark-id": "xccdf_org.cisecurity.benchmarks_benchmark_1.6.1_CIS_Microsoft_Windows_10_Enterprise_Release_1809_Benchmark",
+		"benchmark-title": "CIS Microsoft Windows 10 Enterprise Release 1809 Benchmark",
+		"benchmark-version": "1.6.1",
+		"profile-id": "xccdf_org.cisecurity.benchmarks_profile_Level_1_L1_-_CorporateEnterprise_Environment_general_use",
+		"profile-title": "Level 1 (L1) - Corporate/Enterprise Environment (general use)",
+		"score": "84.89",
+		"rules": [
+			{
+				"rule_id": "xccdf_org.cisecurity.benchmarks_rule_1.1.1_L1_Ensure_Enforce_password_history_is_set_to_24_or_more_passwords",
+				"reference-result": "pass",
+				"vendor-result": "pass"
+			},
+			{
+				"rule_id": "xccdf_org.cisecurity.benchmarks_rule_1.1.2_L1_Ensure_Maximum_password_age_is_set_to_60_or_fewer_days_but_not_0",
+				"reference-result": "pass",
+				"vendor-result": "fail"
+			},
+			{
+				"rule_id": "xccdf_org.cisecurity.benchmarks_rule_1.1.3_L1_Ensure_Minimum_password_age_is_set_to_1_or_more_days",
+				"reference-result": "unknown",
+				"vendor-result": "pass"
+			},
+			{
+				"rule_id": "xccdf_org.cisecurity.benchmarks_rule_1.1.4_L1_Ensure_Minimum_password_length_is_set_to_14_or_more_characters",
+				"reference-result": "unknown",
+				"vendor-result": "pass"
+			},
+			{
+				"rule_id": "xccdf_org.cisecurity.benchmarks_rule_1.1.5_L1_Ensure_Password_must_meet_complexity_requirements_is_set_to_Enabled",
+				"reference-result": "unknown",
+				"vendor-result": "pass"
+			}
+		],
+		"exceptions": [
+			{
+				"rule_id": "xccdf_org.cisecurity.benchmarks_rule_1.1.6_L1_Ensure_Store_passwords_using_reversible_encryption_is_set_to_Disabled",
+				"reason": "We cannot evaluate this one."
+			}
+		]
+	}
+}
