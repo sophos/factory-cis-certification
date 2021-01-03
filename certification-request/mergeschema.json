@@ -1,0 +1,18 @@
+{
+    "properties": {
+        "vendor-name":          { "mergeStrategy": "overwrite" },
+        "product-name":         { "mergeStrategy": "overwrite" },
+        "product-version":      { "mergeStrategy": "overwrite" },
+        "contact-name":         { "mergeStrategy": "overwrite" },
+        "contact-phone":        { "mergeStrategy": "overwrite" },
+        "contact-email":        { "mergeStrategy": "overwrite" },
+        "benchmark-id":         { "mergeStrategy": "discard" },
+        "benchmark-title":      { "mergeStrategy": "discard" },
+        "benchmark-version":    { "mergeStrategy": "discard" },
+        "profile-id":           { "mergeStrategy": "discard" },
+        "profile-title":        { "mergeStrategy": "discard" },
+        "score":                { "mergeStrategy": "discard" },
+        "exceptions":           { "mergeStrategy": "overwrite" },
+        "rules":                { "mergeStrategy": "arrayMergeById", "mergeOptions": { "idRef": "/rule-id" }}
+    }
+}

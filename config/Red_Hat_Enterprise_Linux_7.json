@@ -1,0 +1,24 @@
+{
+	"benchmark": 	{
+		"file": 		"CIS_Red_Hat_Enterprise_Linux_7_Benchmark_v2.2.0-xccdf.xml",
+		"profiles": [
+			"Level 1 - Server",
+			"Level 2 - Server",
+			"Level 1 - Workstation",
+			"Level 2 - Workstation"
+		]
+	},
+"targethost": {
+		"region": 		"us-west-1",
+		"image": 		"ami-33cdd876",
+		"instanceType": "t2.medium",
+		"addressSpace": "172.16.0.0/16",
+		"cidBlock":		"0.0.0.0/0",
+		"user":			"ec2-user",
+		"port": 		22
+	},
+	"remediationRepo": 	{
+		"name":			"RHEL7-CIS",
+		"url": 			"https://github.com/ansible-lockdown/RHEL7-CIS.git"
+	}
+}
