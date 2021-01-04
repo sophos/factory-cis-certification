@@ -8,7 +8,11 @@
 			"Level 2 - Workstation"
 		]
 	},
-"targethost": {
+	"sesstion": {
+		"type": 		"ssh",
+		"tmp": 			"/var/tmp"
+	},
+	"targethost": {
 		"region": 		"us-west-1",
 		"image": 		"ami-33cdd876",
 		"instanceType": "t2.medium",
