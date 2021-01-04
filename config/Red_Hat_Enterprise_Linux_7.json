@@ -1,5 +1,9 @@
 {
 	"shortname": "rhel7",
+	"connection": {
+		"type": "ssh",
+		"credential": "sshkey"
+	},
 	"benchmark": {
 		"file": "CIS_Red_Hat_Enterprise_Linux_7_Benchmark_v2.2.0-xccdf.xml",
 		"profiles": [
@@ -9,10 +13,9 @@
 			"Level 2 - Workstation"
 		]
 	},
-	"sesstion": {
-		"type": "ssh",
-		"tmp": 	"/var/tmp"
-	},
+	"session": {
+		"tempdir": 	"/var/tmp"
+		},
 	"scantarget": {
 		"region": "us-west-1",
 		"image": "ami-33cdd876",
@@ -20,7 +23,9 @@
 		"addressSpace": "172.16.0.0/16",
 		"cidBlock": "0.0.0.0/0",
 		"user":	"ec2-user",
-		"port": 22
+		"port": 22,
+		"disabletty": true,
+		"enablesmb": false
 	},
 	"remediationRepo": 	{
 		"name":	"RHEL7-CIS",
