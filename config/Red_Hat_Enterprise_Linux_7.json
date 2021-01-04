@@ -1,4 +1,5 @@
 {
+	"shortname": 	"rhel7",
 	"benchmark": 	{
 		"file": 		"CIS_Red_Hat_Enterprise_Linux_7_Benchmark_v2.2.0-xccdf.xml",
 		"profiles": [
